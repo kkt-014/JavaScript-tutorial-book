@@ -106,16 +106,36 @@
 //     pos = str.indexOf(keywd, pos + keywd.length);
 // }
 
-// console.log(`${count}件がヒットしました`);
+// // console.log(`${count}件がヒットしました`);
 
-// 5.2.5 文字列に特定の部分文字列が含まれるかを判定する
+// // 5.2.5 文字列に特定の部分文字列が含まれるかを判定する
 
-// リスト5-14 str_includes.js
-let str = 'うりうりがうりうりにきてうりうりのこし';
+// // リスト5-14 str_includes.js
+// // includes(部分一致) startsWith(前方一致) endsWith(後方一致)
 
-console.log(str.includes('うり'));
-console.log(str.startsWith('うり'));
-console.log(str.endsWith('うり'));
-console.log(str.includes('うり',10));
-console.log(str.startsWith('うり',3));
-console.log(str.endsWith('うり',2));
+// let str = 'うりうりがうりうりにきてうりうりのこし';
+
+// console.log(str.includes('うり'));
+// console.log(str.startsWith('うり'));
+// console.log(str.endsWith('うり'));
+// console.log(str.includes('うり',10));
+// console.log(str.startsWith('うり',3));
+// console.log(str.endsWith('うり',2));
+
+// // 5.2.6 文字列の前後から空白を除去する
+// // リスト5-15 str_trim.js
+// let str = ' WINGSプロジェクト \n\t\n';
+
+// console.log(`「${str.trim()}」`);
+// console.log(`「${str.trimStart()}」`);
+// console.log(`「${str.trimEnd()}」`);
+
+// // 5.2.7 文字列を置き換える
+// // リスト5-16 str_replaceall.js
+// let str = 'にわにはにわにわとりがいる';
+
+// console.log(str.replace('にわ','二羽'));
+// console.log(str.replaceAll('にわ','二羽'));
+
+// // リスト5-17 str_replaceall.js
+// console.log(str.split('にわ').join('二羽'));
