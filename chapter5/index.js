@@ -107,3 +107,15 @@
 // }
 
 // console.log(`${count}件がヒットしました`);
+
+// 5.2.5 文字列に特定の部分文字列が含まれるかを判定する
+
+// リスト5-14 str_includes.js
+let str = 'うりうりがうりうりにきてうりうりのこし';
+
+console.log(str.includes('うり'));
+console.log(str.startsWith('うり'));
+console.log(str.endsWith('うり'));
+console.log(str.includes('うり',10));
+console.log(str.startsWith('うり',3));
+console.log(str.endsWith('うり',2));
