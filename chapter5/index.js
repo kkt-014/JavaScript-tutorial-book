@@ -145,3 +145,14 @@
 // let str2 = '叱られて';
 
 // console.log(str.split('\t'));
+
+// // 5.4 日付／時刻値を操作する
+// // 5.4.1 日付／時刻値を生成する
+
+// // リスト5-28 dt_now.js
+// let d= new Date();
+// console.log(d);
+
+// リスト5-29 dt_setup.js
+let d = new Date(2022,11,4,20,15,368);
+console.log(d);
