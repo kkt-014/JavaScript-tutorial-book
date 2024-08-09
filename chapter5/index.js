@@ -139,3 +139,9 @@
 
 // // リスト5-17 str_replaceall.js
 // console.log(str.split('にわ').join('二羽'));
+
+// // 5.2.8 文字列を分割する
+// let str = 'みかん\tりんご\tぶどう\t';
+// let str2 = '叱られて';
+
+// console.log(str.split('\t'));
